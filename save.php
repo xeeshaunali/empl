@@ -42,7 +42,7 @@ if($con == false){
     // $ps            = $_POST['ps'];
 
 
-    $query = "UPDATE employee SET name='$name', fname='$fname',  posting='$posting', designation='$designation', taluka='$taluka' WHERE id=$id";
+    $query = "UPDATE employee SET name='$name', fname='$fname',  posting='$posting', designation = '$designation',  taluka='$taluka' WHERE id=$id";
     $result = $con->query($query);
 
 

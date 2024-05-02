@@ -171,7 +171,7 @@ else
       <!-- <option value="Kotri">Kotri</option>       -->
       <option value="Manjhand">Manjhand</option>
       <option value="Sehwan">Sehwan</option>      
-      <option value="NILL">Nill</option>
+      <!-- <option value="NILL">Nill</option> -->
     </select>
   </div>
 
@@ -185,20 +185,20 @@ else
     <input type="date" class="form-control text-center shadow rounded" name="datedisposal" id="date">
   </div> -->
 
-  <div class="col-md-4">
+  <!-- <div class="col-md-4">
     <label for="date" class="form-label">Date of Birth</label>
     <input type="date" class="form-control text-center shadow rounded" name="dob" id="date">
-  </div>
+  </div> -->
 
-  <div class="col-md-4">
+  <div class="col-md-4 col-xl-12 col-sm-12">
     <label for="date" class="form-label">Date of Appointment</label>
     <input type="date" class="form-control text-center shadow rounded" name="doa" id="date">
   </div>
 
-  <div class="col-md-4">
+  <!-- <div class="col-md-4">
     <label for="date" class="form-label">Date of Retirement</label>
     <input type="date" class="form-control text-center shadow rounded" name="dor" id="date">
-  </div>
+  </div> -->
 
   <!-- <div class="col-md-3">
     <label for="status" class="form-label">CTC Status</label>
