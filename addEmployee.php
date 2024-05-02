@@ -94,7 +94,7 @@ else
       <option value="BPS(12)">BPS(12)</option>
       <option value="BPS(11)">BPS(11)</option>
       <option value="BPS(10)">BPS(10)</option>
-      <option value="BPS(9)">BPS(+)</option>
+      <option value="BPS(9)">BPS(9)</option>
       <option value="BPS(8)">BPS(8)</option>
       <option value="BPS(7)">BPS(7)</option>
       <option value="BPS(6)">BPS(6)</option>
@@ -320,7 +320,6 @@ if(isset($_POST['submit']))
 }
 
 ?>
-
 
 
 <!-- Stops page data submission upon page refresh or submitting empty value START-->

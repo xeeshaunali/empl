@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "sass": "^1.76.0"
+  },
+  "name": "empl",
+  "version": "1.0.0",
+  "description": "Employee Management System",
+  "main": "aos.js",
+  "devDependencies": {},
+  "scripts": {
+    "compile-sass": "sass app.scss app.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeeshaunali/empl.git"
+  },
+  "keywords": [
+    "Employee"
+  ],
+  "author": "Xeeshaun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xeeshaunali/empl/issues"
+  },
+  "homepage": "https://github.com/xeeshaunali/empl#readme"
+}
