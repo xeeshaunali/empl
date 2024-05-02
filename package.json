@@ -8,7 +8,7 @@
   "main": "aos.js",
   "devDependencies": {},
   "scripts": {
-    "compile-sass": "sass app.scss app.css"
+    "compile-sass": "sass app.scss app.css --watch"
   },
   "repository": {
     "type": "git",
