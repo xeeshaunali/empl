@@ -91,7 +91,7 @@ $con->close();
     </div>    
     <div class="row mx-auto">
                         <!-- ADD EMPLOYEE RECORD BUTTON -->
-                        <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="col-xl-4 col-md-6 mb-4">
                             <div class="card border-left-info shadow h-100 py-2">
                                 <div class="card-body text-center">
                                     <div class="row no-gutters align-items-center">
@@ -108,7 +108,7 @@ $con->close();
                         </div>
 
                         <!-- EDIT EMPLOYEE RECORD BUTTON -->
-                        <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="col-xl-4 col-md-6 mb-4">
                             <div class="card border-left-info shadow h-100 py-2">
                                 <div class="card-body text-center">
                                     <div class="row no-gutters align-items-center">
@@ -125,7 +125,7 @@ $con->close();
                         </div>
 
                         <!-- GENERATE REPORT BUTTON -->
-                        <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="col-xl-4 col-md-6 mb-4">
                             <div class="card border-left-info shadow h-100 py-2">
                                 <div class="card-body text-center">
                                     <div class="row no-gutters align-items-center">
@@ -142,7 +142,7 @@ $con->close();
                         </div>
 
                         <!-- PRINT EMPOYEE RECORD BUTTON -->
-                        <div class="col-xl-3 col-md-6 mb-4">
+                        <!-- <div class="col-xl-3 col-md-6 mb-4">
                             <div class="card border-left-info shadow h-100 py-2">
                                 <div class="card-body text-center">
                                     <div class="row no-gutters align-items-center">
@@ -156,7 +156,8 @@ $con->close();
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
+
                     <!-- TOTAL EMPLOYEES WORKING NUMBER CARD -->
                     <div class="row mx-auto text-center">                        
                         <div class="col-xl-3 col-md-6 mb-4">

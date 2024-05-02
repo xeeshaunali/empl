@@ -23,8 +23,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Validate ID (you may need more thorough validation)
     if (is_numeric($id)) {
         // Prepare and execute the query
-        $stmt = $con->prepare("SELECT * FROM ctccc WHERE id = ?");
-        $stmt->bind_param("i", $id);
+        $stmt = $con->prepare("SELECT * FROM cstccc WHERE id = ?");
+        $stmt->bind_param("id", $id);
         $stmt->execute();
 
         // Get the result
