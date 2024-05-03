@@ -1,64 +1,56 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  margin-left: 0.7rem;
-  margin-right: 0.7rem;
-}
-
-.row-flex {
+.row {
   display: flex;
   flex-wrap: wrap;
   margin-left: 0.7rem;
   margin-right: 0.7rem;
 }
 
-@media (mix-width: 1200px) {
-  .col-key-1 {
+@media (min-width: 1200px) {
+  .col-xlg-1 {
     flex-basis: 8.3333333333%;
     max-width: 8.3333333333%;
   }
-  .col-key-2 {
+  .col-xlg-2 {
     flex-basis: 16.6666666667%;
     max-width: 16.6666666667%;
   }
-  .col-key-3 {
+  .col-xlg-3 {
     flex-basis: 25%;
     max-width: 25%;
   }
-  .col-key-4 {
+  .col-xlg-4 {
     flex-basis: 33.3333333333%;
     max-width: 33.3333333333%;
   }
-  .col-key-5 {
+  .col-xlg-5 {
     flex-basis: 41.6666666667%;
     max-width: 41.6666666667%;
   }
-  .col-key-6 {
+  .col-xlg-6 {
     flex-basis: 50%;
     max-width: 50%;
   }
-  .col-key-7 {
+  .col-xlg-7 {
     flex-basis: 58.3333333333%;
     max-width: 58.3333333333%;
   }
-  .col-key-8 {
+  .col-xlg-8 {
     flex-basis: 66.6666666667%;
     max-width: 66.6666666667%;
   }
-  .col-key-9 {
+  .col-xlg-9 {
     flex-basis: 75%;
     max-width: 75%;
   }
-  .col-key-10 {
+  .col-xlg-10 {
     flex-basis: 83.3333333333%;
     max-width: 83.3333333333%;
   }
-  .col-key-11 {
+  .col-xlg-11 {
     flex-basis: 91.6666666667%;
     max-width: 91.6666666667%;
   }
-  .col-key-12 {
+  .col-xlg-12 {
     flex-basis: 100%;
     max-width: 100%;
   }
@@ -163,7 +155,7 @@
     max-width: 100%;
   }
 }
-@media (max-widht: 768px) {
+@media (max-width: 768px) {
   .col-sm-1 {
     flex-basis: 8.3333333333%;
     max-width: 8.3333333333%;
@@ -212,6 +204,17 @@
     flex-basis: 100%;
     max-width: 100%;
   }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-left: 0.7rem;
+  margin-right: 0.7rem;
+}
+
+.back {
+  background-color: red;
 }
 
 /*# sourceMappingURL=app.css.map */

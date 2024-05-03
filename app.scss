@@ -14,56 +14,8 @@
     margin-right: $gutter;    
 }
 
-
-.row-flex {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: $gutter;
-    margin-right: $gutter;
-}
-
-
-@each $key, $value in $grid {
-    @if $key == xlg {
-        @media (mix-width: $value){
-            @for $i from 1 through 12 {
-                .col-#{key}-#{$i}{
-                    flex-basis:math.div(100%,12)*$i;
-                    max-width: math.div(100%,12)*$i;
-                }
-            }
-        }
-    }
-    @else if $key == lg {
-        @media (max-width: $value) {
-            @for $i from 1 through 12 {
-                .col-#{$key}-#{$i}{
-                    flex-basis:math.div(100%,12)*$i;
-                    max-width: math.div(100%,12)*$i;
-                }
-            }
-        }
-    }
-    @else if $key == md {
-        @media (max-width: $value) {
-            @for $i from 1 through 12 {
-                .col-#{$key}-#{$i} {
-                    flex-basis: math.div(100%,12)*$i;
-                    max-width: math.div(100%,12)*$i;
-                }
-            } 
-        }
-    }
-    @else if $key == sm {
-        @media (max-widht: $value) {
-            @for $i from 1 through 12 {
-                .col-#{$key}-#{$i} {
-                    flex-basis: math.div(100%,12)*$i;
-                    max-width: math.div(100%,12)*$i;
-                }
-            }
-        }
-    }
+.back {
+    background-color: red;
 }
 
 

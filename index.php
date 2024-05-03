@@ -20,7 +20,7 @@
     </style>
 </head>
 <body>
-<body>
+<body>    
 <div class="container-fluid">
                 
                 <div class="row">
