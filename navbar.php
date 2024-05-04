@@ -7,18 +7,39 @@
     <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="nav">
-                <div class="nav__ul">
-                    <div class="nav__ul__li">
-                        <div class="nav__ul__li__a">
-                            
-                        </div>
-                    </div>
+    <!-- Start Navbar -->
+        
+    <nav>
+        <div class="nav">
+
+            <div class="nav__wrapper">
+
+                <div class="nav__wrapper__logo">
+                    <a href="" class="nav__wrapper__logo__a">DJ</a>
                 </div>
+
+                <ul class="nav__wrapper__ul">
+
+                    <li class="ul__wrapper__ul__li">
+                        <a href="" class="nav__wrapper__ul__li__a">Home</a>
+                    </li>
+                    <li class="ul__wrapper__ul__li">
+                        <a href="" class="nav__wrapper__ul__li__a">Home</a>
+                    </li>
+                    <li class="ul__wrapper__ul__li">
+                        <a href="" class="nav__wrapper__ul__li__a">Home</a>
+                    </li>
+                    <li class="ul__wrapper__ul__li">
+                        <a href="" class="nav__wrapper__ul__li__a">Home</a>
+                    </li>
+
+                </ul>
             </div>
         </div>
-    </div>
+    </nav>    
+    <!-- End Navbar -->
+
+
+
 </body>
 </html>
